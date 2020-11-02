@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: pink
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin: 0;
+  display: inline;    
+  background-color: pink;
+  padding-left: 60px;
+  padding-right:60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-width: 3px;
+  color: white;
+
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+ul li {
+  font-style: oblique;
+  color: white;
+}
+/*adding hero image*/
+.hero {
+  background-image: url(../img/clouds.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+.me {
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-width: 3px;
+  color: white;
+}
+.text {
+  display: flex;
+  
+}
+.text h2 {
+  color: white;
+  background-color: pink;
+  font-size: 33px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 3px;
+  position: absolute;
+  bottom: 300px;
+  right: 140px;
+  
+}
+/*About Me*/
+.about-me {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  padding: 0 80px 0 103px;
+}
+.about-me div {
+  font-size: 18px;
+  line-height: 1.5;
+  color: pink;
+  
+}
+.section-head {
+  font-size: 40px;
+  padding-right: 20px;
+  text-align: right;
+  color: pink;
+}
+.section-border {
+  padding-left: 30px;
+  border-left: 4px solid var(--textpink);
+}
+/*work css*/
+.work {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  padding: 0 80px 0 120px;
+  color: pink;  
+}
+/* work style */
+.work {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+  padding: 0 80px 0 120px;
+}
+.work-grid-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.work-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  grid-gap: 5px;
+  height: 600px;
+}
+.work-grid-container img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+.work-grid-container a {
+  width: 100%;
+  height: 100%;
+}
+.work-grid-item {
+  padding: 0px;
+  border: 4px solid var(--mainblue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.work-1 {
+  grid-column: 1/ span 2;
+  grid-row: 1/ span 2;
+}
+/*footer*/
+.contact-me {
+  padding: 20px 35px;
+}
+.section-head {
+  color:pink;
+  float: left;
+  border-style: solid;
+  border-width: 5px;
+  border-color: pink;
+}
+.contact-me ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px 35px;
+  background-color: pink;
+  border-style: solid;
+  border-width: 3px; color: white;
+}
